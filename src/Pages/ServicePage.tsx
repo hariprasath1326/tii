@@ -1,11 +1,12 @@
 import '../Pages/ServicePage.css';
 import CTASection1 from '../components/CTASection1';
 import Footer from '../components/Footer';
+import Metaballs from '../../src/assets/Metaballs.svg';
 
 const About = () => {
   return (
     <div>
-      <section style={{ backgroundImage: `url('../../src/assets/Metaballs.svg')` }}  className="hero">
+      <section style={{ backgroundImage: `url(${Metaballs})` }}  className="hero">
         <div className="hero-content">
           <h1>Welcome to TII</h1>
           <p>Your trusted partner in delivering innovative <br /> digital solutions. 

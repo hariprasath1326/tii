@@ -1,10 +1,11 @@
 import '../Pages/About.css';
 import Footer from '../components/Footer';
+import Metaballs from '../../src/assets/Metaballs.svg';
 
 const About = () => {
   return (
     <div>
-      <section style={{ backgroundImage: `url('../../src/assets/Metaballs.svg')` }}  className="hero">
+      <section style={{ backgroundImage: `url(${Metaballs})` }}  className="hero">
         <div className="hero-content">
           <h1>About Us</h1>
           <p>At Tech Info Infinity, we are dedicated <br /> to transforming 
