@@ -1,0 +1,29 @@
+@media (max-width: 840px) {
+    .hero {
+      margin-bottom: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+      margin-bottom: 35%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero {
+      margin-bottom: 50%;
+    }
+}
+
+@media (max-width: 395px) {
+    .hero {
+      margin-bottom: 80%;
+    }
+}
+
+@media (max-width: 300px) {
+    .hero {
+      margin-bottom: 100%;
+    }
+}

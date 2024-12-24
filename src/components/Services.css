@@ -1,0 +1,219 @@
+
+
+.services {
+    text-align: center;
+    padding: 2rem;
+    height: 100vh;
+    background-color: rgba(255, 251, 245, 1);
+  }
+  
+  .services-title {
+    font-size: 3rem;
+    font-family: 'Lobster', sans-serif;
+    color: #2a2a2a;
+    margin-bottom: 2rem;
+  }
+  
+  .services-container {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  /* Card styling */
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    height: 320px;
+    transition: transform 0.3s ease-in-out;
+    /* Add a margin to separate the cards */
+  }
+  
+  /* Hover effect for card */
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: 2%;
+    color: #666;
+  }
+  
+  .service-card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  /* Zigzag effect ? */
+   .services-container .service-card:nth-child(odd) {
+    margin-top: -5%;  /* Move odd cards down */
+  } 
+  
+   .services-container .service-card:nth-child(even) {
+    margin-top: 5%; /* Move even cards up */
+  } 
+
+
+  @media (max-width: 1352px) {
+    .services-container {
+      margin-top: 15%;  /* Adjust top margin for smaller screens */
+      gap: 2rem; /* Smaller gap between cards */
+    }
+  
+    .service-card {
+      width: 200px;  /* Adjust card width for smaller screens */
+      height: 250px; /* Adjust card height for smaller screens */
+    }
+  
+    .services-title {
+      font-size: 1.5rem;  /* Smaller font size for mobile/tablet */
+    }
+    .service-card h3 {
+        font-size: 1rem;
+        color: #333;
+        margin: 0.5rem 0;
+      }
+      
+      .service-card p {
+        font-size: 0.8rem;
+        color: #666;
+      }
+  
+  }
+
+
+
+
+/* Mobile and Tablet View */
+@media (max-width: 768px) {
+    .services-container {
+      margin-top: 5%;  /* Adjust top margin for smaller screens */
+      gap: 2rem; /* Smaller gap between cards */
+    }
+  
+    .service-card {
+      width: 200px;  /* Adjust card width for smaller screens */
+      height: 250px; /* Adjust card height for smaller screens */
+    }
+  
+    .services-title {
+      font-size: 1.5rem;  /* Smaller font size for mobile/tablet */
+    }
+    .service-card h3 {
+        font-size: 1rem;
+        color: #333;
+        margin: 0.5rem 0;
+      }
+      
+      .service-card p {
+        font-size: 0.8rem;
+        color: #666;
+      }
+  
+  }
+  
+  @media (max-width: 492px) {
+    .services-container {
+      margin-top: 25%;  /* Reduce margin further on smaller screens */
+      gap: 2rem;  /* Reduce the gap even more */
+    }
+  
+    .service-card {
+      width: 160px;  /* Even smaller card width for very small screens */
+      height: 200px;  /* Adjust height for very small screens */
+    }
+    .service-card h3 {
+        font-size: 0.8rem;
+        color: #333;
+        margin: 0.5rem 0;
+      }
+      
+      .service-card p {
+        font-size: 0.5rem;
+        color: #666;
+      }
+  }
+
+  @media (max-width: 430px) {
+    .services-container {
+      margin-top: 35%;  /* Reduce margin further on smaller screens */
+      gap: 2rem;  /* Reduce the gap even more */
+    }
+}
+
+@media (min-width: 390px) and (max-width: 415px) {
+    /* Your styles for screens between 390px and 415px */
+    .services-container {
+        margin-top: 30%;  /* Reduce margin further on smaller screens */
+        gap: 2rem;  /* Reduce the gap even more */
+      }
+    
+      .service-card {
+        width: 120px;  /* Even smaller card width for very small screens */
+        height: 160px;  /* Adjust height for very small screens */
+      }
+      .service-card h3 {
+          font-size: 0.8rem;
+          color: #333;
+          margin: 0.5rem 0;
+        }
+        
+        .service-card p {
+          font-size: 0.4rem;
+          color: #666;
+        }
+  }
+  
+
+  @media (max-width: 390px) {
+  .services-container {
+    margin-top: 30%;  /* Reduce margin further on smaller screens */
+    gap: 2rem;  /* Reduce the gap even more */
+  }
+
+  .service-card {
+    width: 120px;  /* Even smaller card width for very small screens */
+    height: 160px;  /* Adjust height for very small screens */
+  }
+  .service-card h3 {
+      font-size: 0.8rem;
+      color: #333;
+      margin: 0.5rem 0;
+    }
+    
+    .service-card p {
+      font-size: 0.4rem;
+      color: #666;
+    }
+  }
+
+  
+  
+  
+  
